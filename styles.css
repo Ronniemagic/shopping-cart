@@ -1,0 +1,139 @@
+.main-container{
+  
+    margin-top: 8%;
+  }
+  
+  .product-order-container{
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .button-size{
+    width: 2.5rem;
+    height: 2.5rem;
+    text-align: center;
+    text-transform: uppercase;
+    color: black;
+    outline: none;
+    border-style: none;
+    font-size: 12px;
+    border-radius: 50px;
+    margin: 2.5px;
+  }
+  
+  .leave-star{
+    font-size: 12px;
+    margin-top: 8%;
+    font-weight: 700;
+    color: lightgray;
+  }
+  .star-number-container{
+    display: flex;
+  }
+  .star-container{
+    margin-right: 10px;
+   
+  }
+  .star-container button{
+    height: 4vh;
+    display: flex;
+   justify-content: center;
+    align-items: center;
+    border:2px solid rgb(232, 223, 223);
+  }
+  .star{
+    /* width: 130%; */
+    font-size: 20px;
+  }
+  .word-star{
+    font-weight: 500;
+    font-size:20px ;
+  }
+  .nunber button{
+    background-color: white;
+    border:2px solid rgb(232, 223, 223);
+  }
+  
+  
+  
+  img {
+    position: relative;
+    height:45vh;
+    
+  }
+  
+  .free-shipping-button{
+    background-color: #0e0e0e;
+    color: rgb(194, 189, 189);
+    width: 30%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    justify-content: center;
+    align-items: center;
+    height: 4vh;
+    margin-right: 12px;
+  }
+  
+  .free-shipping{
+    font-size: 10px;
+    text-align: center;
+  }
+  
+  .card-title{
+    display: flex;
+    justify-content: center;
+  }
+  
+  .yellow-line{
+    border: 2px solid yellow;
+    width: 15%;
+    margin-left: 40%;
+    margin-top: 10%;
+  }
+  
+  .price{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 8%;
+  
+  }
+  
+  .dollar-sign{
+    padding-right: 3px;
+  }
+  .dollar{
+    font-size: 30px;
+    font-weight: 700;
+  }
+  
+  .cent{
+    padding-top: 10px;
+  }
+  
+  .or-price{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(144, 141, 141);
+    line-gap-override: 0;
+  }
+  .times{
+    padding: 0;
+    margin: 0;
+  
+  }
+  
+  .cart-button{
+    background-color: #0e0e0e;
+    color: rgb(209, 203, 203);
+    size: 50px;
+    /* font-size: 50px; */
+    height: 6.5vh;
+    width: 100%;
+    margin-top: 6%;
+  }
+  .cart-button{
+    background-color: black;
+  }
